@@ -1,0 +1,62 @@
+/* Navbar.css */
+.navbar {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    z-index: 999;
+  }
+  .navbar .logo img{
+    width: 200px ;
+  }
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    gap: 70px;
+}
+.navbar-list .navbar-link{
+   font-size: 22px;
+   font-family: sans-serif;
+
+  }
+  
+  .navbar-item {
+    margin: 0;
+    font-size: 20px;
+    
+  }
+  
+  .navbar-link {
+    color: #50412d;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .navbar-link:hover {
+    text-decoration: underline;
+  }
+  .book-btn-main{
+    padding: 8px 50px;
+    border: 1px solid;
+    margin-top: -20px;
+    margin-left: -50px;
+    border-radius: 50px;
+  }
+  .book-btn h4{
+    font-size: 20px ;
+  }
+  .book-btn{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    gap: 30px;
+  }
+  .book-btn-img{
+    width: 30px;
+  }

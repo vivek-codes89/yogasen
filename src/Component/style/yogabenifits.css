@@ -1,0 +1,53 @@
+.benifits-main{
+    margin-left: 50px;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.benifits-inner-main{
+    display: flex;
+    gap: 30px;
+}
+.benifits-main-top h1{
+    font-size: clamp(2rem, 1.6rem + 2vw, 4rem);
+    color: #bfa488;
+}
+.benifits-main-top p:nth-child(1){
+    font-size: 30px;
+}
+.benifits-inner-main p{
+    font-size: clamp(1.25rem, 1.2rem + 0.25vw, 1.5rem);
+}
+.benifits-inner-main p{
+    margin-right: 20px;
+}
+
+.benifitsmain-top-main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.benifits-yoga-image img{
+    border-radius: 50%;
+    width: 40vw;
+    height: 80vh;
+
+}
+.top-yoga-icon-benifits{
+    position: absolute;
+    display: inline;
+    margin-left: -46%;
+    margin-top: 14% !important;
+z-index: 9999;
+}
+    .sun-image{
+        position: absolute;
+        left: 85%;
+        margin-top: -0%;
+    }
+    .sun-image img{
+         width: 200px;
+         height: 200px;
+    }
